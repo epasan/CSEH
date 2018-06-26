@@ -1,0 +1,8 @@
+## 1. Introducción
+Con este documento se busca dar una idea de que es y como instalar un Emulador de servidor KMS en un servidor Linux (Ubuntu 16.04), para de esta manera profundizar el conocimiento sobre su uso y funcionamiento de como el servidor KMS valida licencias de Windows desde la red local.
+
+A lo largo de este documento encontraremos todos los pasos necesarios para la instalación de dicho emulador pasando por la instalación de una máquina virtual con Ubuntu 16.04, los pasos de post instalación de la máquina como la configuración del servidor ssh que nos permitirá establecer la conexión vía SSH con el servidor Linux y la instalación de git para poder descargar el repositorio necesario para la instalación del Emulador de KMS, los pasos necesarios para la configuración de los demonios del KMS y como realizar posteriormente la validación de licencias en Windows. Todos estos pasos también se encuentran en Videotutorial.
+
+Tras realizar todos los pasos de este documento contaras con un emulador de KMS totalmente operativo para realizar pruebas con él.
+
+>Hay que tener en cuenta que este documento es un laboratorio y no debe ser usuario en casos reales ya que la utilización de este servidor no es legal según las políticas de licenciamiento de Microsoft, por este motivo se desaconseja su uso en entornos caseros o corporativos y no me hago responsable el uso indebido del contenido de este documento.
